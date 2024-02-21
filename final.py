@@ -25,8 +25,8 @@ while True:
         messagerun = "pumprun!"
         send_line_notify(messagerun, line_notify_token)
         pump.on()
-        time.sleep(10)
-        for i in range(1,11):
+        time.sleep(2)
+        for i in range(1,3):
             print(i)
             time.sleep(1)
         pump.off()
